@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darg & Drop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <style>
+        .bloc {
+            height: 3rem;
+            border: 1px solid black;
+            margin-bottom: 1rem;
+            padding: .5rem;
+        }
+        .active {
+            border: 1px solid red;
+        }
+        .hidden {
+            display: none;
+        }
+        .zone {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content">
+        <header class="hero">
+            <div class="hero-content is-primary">
+                <h1 class="title">Drag and Drop</h1>
+            </div>
+        </header>
+        <main class="section">
+            <div class="columns">
+                <div class="column is-one-quarter ">
+                    <div class="bloc" draggable="true">bloc 1</div>
+                    <div class="bloc" draggable="true">bloc 2</div>
+                </div>
+                <div class="column zone"></div>
+            </div>
+        </main>
+        <footer class="footer">
+            &copy; P. Charlier - 2023
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

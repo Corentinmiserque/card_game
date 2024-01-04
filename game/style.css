@@ -1,0 +1,41 @@
+
+
+.card {
+    width: 8rem;
+    height: 12rem;
+    text-align: center;
+    line-height: 12rem;
+    margin: auto;
+    
+}
+.pass {
+    text-align: right;
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+    margin-right: 3rem; 
+}
+.my-cards .card {
+    cursor: pointer;
+}
+.card.played {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+}
+.level {
+    text-align: center;
+}
+.score {
+    text-align: right;
+}
+.container, .winpage{
+    display: none;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form id="playerForm">
+            <h1>Qui joue ? </h1>
+            <input type="text" id="usernameInput" placeholder="Enter your username">
+            <button id="playerSubmit" type="submit">Jouer</button>
+            <button class=" classement">Classement complet</button>
+        </form>
+        <div class="container content">
+            <header class="hero">
+            </header>
+            <section class="section">
+                <div class="card played computerCard"></div>
+                <div class="dropzone"></div>
+                <div class="pass">
+                    <button class="button is-danger pass">Passer</button>
+                </div>
+                <div class="columns my-cards">
+                </div>
+            </section>
+        </div>
+        <div class="winpage">
+            <button class ="replay">rejouer ? </button>
+            <button class="change"> changer de personne? </button>
+        </div>
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>
+
+
